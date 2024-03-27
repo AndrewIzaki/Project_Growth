@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="green1">#BBDFB0</color>
+    <color name="green2">#83BC73</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="gdmargin_bottom">20dp</dimen>
+    <dimen name="margin_top">24dp</dimen>
+    <string name="Name">Joe Doe</string>
+    <string name="app_name">Regrowth</string>
+    <string name="countdown">00:00</string>
+    <string name="tarefa">Tarefa de Ingles</string>
+    <style name="Base.Theme.Regrowth" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Regrowth" parent="Base.Theme.Regrowth"/>
+</resources>
