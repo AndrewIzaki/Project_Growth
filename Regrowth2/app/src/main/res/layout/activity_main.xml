@@ -2,8 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+>
 
     <ImageView
             android:id="@+id/back1"
@@ -58,7 +61,10 @@
             android:layout_marginBottom="@dimen/gdmargin_bottom"
             android:src="@drawable/historia_1"
             android:layout_marginLeft="@dimen/margin_top"
+            android:clickable="true"
+            android:onClick="cronometro"
     />
+
     <ImageView
             android:id="@+id/task"
             android:layout_width="50dp"
@@ -76,6 +82,8 @@
             app:layout_constraintEnd_toEndOf="@id/guide"
             android:src="@drawable/pine_tree_1"
             android:layout_marginRight="@dimen/margin_top"
+            android:clickable="true"
+            android:onClick="tree"
     />
     <ImageView
             android:id="@+id/plus"

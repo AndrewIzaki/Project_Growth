@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:2:1-30:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\andre\.gradle\caches\transforms-3\c4f54cd85dc3b3a61cd7e49810f358ac\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\andre\.gradle\caches\transforms-3\93b1cb795f0ace3cb6aef89786a560a3\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\andre\.gradle\caches\transforms-3\4d291af891452286c84826c00582a971\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -56,8 +56,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\andre\.gradle\caches\transform
 	xmlns:android
 		ADDED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:5:5-24:19
-INJECTED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:5:5-24:19
+ADDED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:5:5-28:19
+INJECTED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:5:5-28:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\andre\.gradle\caches\transforms-3\c4f54cd85dc3b3a61cd7e49810f358ac\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\andre\.gradle\caches\transforms-3\c4f54cd85dc3b3a61cd7e49810f358ac\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\andre\.gradle\caches\transforms-3\93b1cb795f0ace3cb6aef89786a560a3\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -97,21 +97,29 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\andre\.gradle\cach
 	android:dataExtractionRules
 		ADDED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:7:13-69
 activity#com.fatec.regrowth.MainActivity
-ADDED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:15:9-23:20
+ADDED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:16:9-24:20
 	android:exported
-		ADDED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:17:17-40
+		ADDED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:18:17-40
 	android:name
-		ADDED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:16:17-45
+		ADDED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:17:17-45
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:19:17-68
+ADDED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:20:17-68
 	android:name
-		ADDED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:21:17-76
+ADDED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:22:17-76
 	android:name
-		ADDED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:22:27-74
+activity#com.fatec.regrowth.cronometro
+ADDED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:26:9-48
+	android:name
+		ADDED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:26:19-45
+activity#com.fatec.regrowth.tree
+ADDED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:27:9-42
+	android:name
+		ADDED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:27:19-39
 uses-sdk
 INJECTED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml

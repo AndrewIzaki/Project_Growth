@@ -1,118 +1,122 @@
 [
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/layout_tree.xml.flat",
-        "source": "com.fatec.regrowth.app-main-33:/layout/tree.xml"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\drawable_redondo.xml.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\drawable\\redondo.xml"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.fatec.regrowth.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.fatec.regrowth.app-main-33:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.fatec.regrowth.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\drawable_baixo.xml.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\drawable\\baixo.xml"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.fatec.regrowth.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.fatec.regrowth.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.fatec.regrowth.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\drawable_relogiorelogin.xml.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\drawable\\relogiorelogin.xml"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.fatec.regrowth.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.fatec.regrowth.app-main-33:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_baixo.xml.flat",
-        "source": "com.fatec.regrowth.app-main-33:/drawable/baixo.xml"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\drawable_plus_1.xml.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\drawable\\plus_1.xml"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.fatec.regrowth.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\layout_cronometro.xml.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\layout\\cronometro.xml"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.fatec.regrowth.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\drawable_cima__1_.xml.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\drawable\\cima__1_.xml"
     },
     {
         "merged": "com.fatec.regrowth.app-merged_res-31:/layout_activity_main.xml.flat",
         "source": "com.fatec.regrowth.app-main-33:/layout/activity_main.xml"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.fatec.regrowth.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\drawable_rectangle_1__1_.xml.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\drawable\\rectangle_1__1_.xml"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_plus_1.xml.flat",
-        "source": "com.fatec.regrowth.app-main-33:/drawable/plus_1.xml"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_shopping_list_1.xml.flat",
-        "source": "com.fatec.regrowth.app-main-33:/drawable/shopping_list_1.xml"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/layout_cronometro.xml.flat",
-        "source": "com.fatec.regrowth.app-main-33:/layout/cronometro.xml"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\drawable_tronco.xml.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\drawable\\tronco.xml"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_redondo.xml.flat",
-        "source": "com.fatec.regrowth.app-main-33:/drawable/redondo.xml"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\drawable_pine_tree_1.xml.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\drawable\\pine_tree_1.xml"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_pine_tree_1.xml.flat",
-        "source": "com.fatec.regrowth.app-main-33:/drawable/pine_tree_1.xml"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_cima__1_.xml.flat",
-        "source": "com.fatec.regrowth.app-main-33:/drawable/cima__1_.xml"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/xml_data_extraction_rules.xml.flat",
-        "source": "com.fatec.regrowth.app-main-33:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.fatec.regrowth.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\drawable_historia_1.xml.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\drawable\\historia_1.xml"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/xml_backup_rules.xml.flat",
-        "source": "com.fatec.regrowth.app-main-33:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_tronco.xml.flat",
-        "source": "com.fatec.regrowth.app-main-33:/drawable/tronco.xml"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_historia_1.xml.flat",
-        "source": "com.fatec.regrowth.app-main-33:/drawable/historia_1.xml"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.fatec.regrowth.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\layout_tree.xml.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\layout\\tree.xml"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.fatec.regrowth.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\drawable_shopping_list_1.xml.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\drawable\\shopping_list_1.xml"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_relogiorelogin.xml.flat",
-        "source": "com.fatec.regrowth.app-main-33:/drawable/relogiorelogin.xml"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_rectangle_1__1_.xml.flat",
-        "source": "com.fatec.regrowth.app-main-33:/drawable/rectangle_1__1_.xml"
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\xml\\backup_rules.xml"
     }
 ]
