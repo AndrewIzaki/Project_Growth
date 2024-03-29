@@ -2094,6 +2094,7 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
+color transparent
 color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
@@ -3095,6 +3096,7 @@ drawable tronco
 id ALT
 id BOTTOM_END
 id BOTTOM_START
+id Btn_cronometro
 id CM_tarefas
 id CTRL
 id FUNCTION
@@ -3106,6 +3108,7 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
+id Scroll_tasks
 id TOP_END
 id TOP_START
 id accelerate
@@ -3189,6 +3192,7 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id bot_task
 id bottom
 id bounce
 id bounceBoth
@@ -3227,9 +3231,10 @@ id contiguous
 id continuousVelocity
 id coordinator
 id cos
+id countdown_min
+id countdown_sec
 id counterclockwise
 id cradle
-id cronometro
 id currentState
 id custom
 id customPanel
@@ -3320,7 +3325,6 @@ id ignoreRequest
 id image
 id img_baixo
 id img_cima
-id img_cronometro
 id immediateStop
 id included
 id indeterminate
@@ -3333,12 +3337,15 @@ id jumpToEnd
 id jumpToStart
 id labeled
 id layout
+id layout_activityMain
+id layout_tasks
 id left
 id leftToRight
 id legacy
 id line1
 id line3
 id linear
+id linearLayout_Tasks
 id listMode
 id list_item
 id m3_side_sheet
@@ -3452,6 +3459,7 @@ id peekHeight
 id percent
 id pin
 id plus
+id point
 id position
 id postLayout
 id pressed
@@ -3568,6 +3576,7 @@ id title_template
 id toggle
 id top
 id topPanel
+id top_task
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -3578,6 +3587,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id tree
 id triangle
+id txt_teste
 id unchecked
 id uniform
 id unlabeled
@@ -3796,6 +3806,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout task
 layout tree
 mipmap ic_launcher
 mipmap ic_launcher_round
@@ -3848,7 +3859,8 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
-string countdown
+string countdown_Min
+string countdown_Sec
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -3970,6 +3982,7 @@ string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
 string tarefa
+string teste
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

@@ -48,7 +48,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
     />
-
     <ImageView
             android:id="@+id/relogio"
             android:layout_width="50dp"
@@ -58,7 +57,11 @@
             android:layout_marginBottom="@dimen/gdmargin_bottom"
             android:src="@drawable/historia_1"
             android:layout_marginLeft="@dimen/margin_top"
+            android:contentDescription="navigation to crono"
+            android:clickable="true"
+            android:onClick="cronometro"
     />
+
     <ImageView
             android:id="@+id/task"
             android:layout_width="50dp"
@@ -67,6 +70,10 @@
             app:layout_constraintEnd_toStartOf="@id/tree"
             app:layout_constraintBottom_toBottomOf="@id/relogio"
             android:src="@drawable/shopping_list_1"
+
+            android:contentDescription="navigation to main"
+            android:clickable="true"
+            android:onClick="main"
     />
     <ImageView
             android:id="@+id/tree"
@@ -75,7 +82,10 @@
             app:layout_constraintBottom_toBottomOf="@id/relogio"
             app:layout_constraintEnd_toEndOf="@id/guide"
             android:src="@drawable/pine_tree_1"
+            android:contentDescription="navigation to tree"
             android:layout_marginRight="@dimen/margin_top"
+            android:clickable="true"
+            android:onClick="tree"
     />
     <ImageView
             android:id="@+id/plus"

@@ -2,5 +2,8 @@
     <string name="app_name">Regrowth</string>
     <string name="Name">Joe Doe</string>
     <string name="tarefa">Tarefa de Ingles</string>
-    <string name="countdown">00:00</string>
+    <string name="countdown_Min">10</string>
+    <string name="countdown_Sec">00</string>
+    <string name="teste">teste</string>
+
 </resources>
