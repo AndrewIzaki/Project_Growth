@@ -5,8 +5,6 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
-
     <ImageView
             android:id="@+id/back1"
             android:layout_width="0dp"
@@ -103,15 +101,40 @@
             app:layout_constraintTop_toTopOf="@id/back2"
             android:clickable="true"
     />
+    <Button
+            android:id="@+id/Btn_Pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/back2"
+            app:layout_constraintBottom_toTopOf="@id/img_cima"
+            app:layout_constraintStart_toEndOf="@id/Btn_cronometro"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@color/green1"
+            android:backgroundTint="@color/green3"
+            android:text="Pause"
+    />
+    <Button
+            android:id="@+id/Btn_Reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/back2"
+            app:layout_constraintBottom_toTopOf="@id/img_cima"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/Btn_cronometro"
+            android:textColor="@color/green1"
+            android:backgroundTint="@color/green3"
+            android:text="Reset"
+    />
    <TextView
            android:id="@+id/point"
-           android:text=":"
+           android:text=""
            android:textSize="40dp"
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            app:layout_constraintTop_toBottomOf="@id/Btn_cronometro"
            app:layout_constraintStart_toStartOf="parent"
            app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintBottom_toTopOf="@id/img_cima"
    />
     <ImageView
             android:id="@+id/img_cima"
@@ -123,17 +146,17 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:src="@drawable/baixo"
     />
-<ImageView
-        android:id="@+id/img_baixo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+            android:id="@+id/img_baixo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
 
-        app:layout_constraintTop_toTopOf="@id/img_cima"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:src="@drawable/cima__1_"
-/>
-<TextView
+            app:layout_constraintTop_toTopOf="@id/img_cima"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:src="@drawable/cima__1_"
+            app:layout_constraintHorizontal_bias="0.505"/>
+    <TextView
         android:id="@+id/CM_tarefas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -152,17 +175,8 @@
             android:text="@string/countdown_Min"
             app:layout_constraintEnd_toStartOf="@id/point"
             app:layout_constraintTop_toBottomOf="@id/Btn_cronometro"
-            android:maxLength="2"
-    />
-    <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/countdown_sec"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="30dp"
-            android:inputType="number"
-            android:text="@string/countdown_Sec"
-            app:layout_constraintStart_toEndOf="@id/point"
-            app:layout_constraintTop_toBottomOf="@id/Btn_cronometro"
+
+            app:layout_constraintBottom_toTopOf="@id/img_cima"
             android:maxLength="2"
     />
 
@@ -174,8 +188,19 @@
             android:text="@string/teste"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:textColor="@color/black"
+            android:textColor="@color/green1"
+            android:background="@color/green3"
+            app:layout_constraintBottom_toTopOf="@+id/back2"
+         />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="min"
+            app:layout_constraintStart_toEndOf="@id/point"
+            app:layout_constraintTop_toBottomOf="@id/Btn_cronometro"
+            app:layout_constraintBottom_toTopOf="@id/img_cima"
     />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

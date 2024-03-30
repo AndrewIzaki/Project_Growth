@@ -3,6 +3,7 @@ local
 color black
 color green1
 color green2
+color green3
 color transparent
 color white
 dimen gdmargin_bottom
@@ -19,6 +20,8 @@ drawable redondo
 drawable relogiorelogin
 drawable shopping_list_1
 drawable tronco
+id Btn_Pause
+id Btn_Reset
 id Btn_cronometro
 id CM_tarefas
 id Name
@@ -27,7 +30,6 @@ id back1
 id back2
 id bot_task
 id countdown_min
-id countdown_sec
 id guide
 id img_baixo
 id img_cima

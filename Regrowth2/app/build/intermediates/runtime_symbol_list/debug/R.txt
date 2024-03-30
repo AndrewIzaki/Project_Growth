@@ -1416,6 +1416,7 @@ int color foreground_material_dark 0x7f05005c
 int color foreground_material_light 0x7f05005d
 int color green1 0x7f05005e
 int color green2 0x7f05005f
+int color green3 0x7f050307
 int color highlighted_text_material_dark 0x7f050060
 int color highlighted_text_material_light 0x7f050061
 int color m3_appbar_overlay_color 0x7f050062
@@ -2093,8 +2094,8 @@ int color switch_thumb_normal_material_dark 0x7f050301
 int color switch_thumb_normal_material_light 0x7f050302
 int color tooltip_background_dark 0x7f050303
 int color tooltip_background_light 0x7f050304
-int color transparent 0x7f050306
-int color white 0x7f050305
+int color transparent 0x7f050305
+int color white 0x7f050306
 int dimen abc_action_bar_content_inset_material 0x7f060000
 int dimen abc_action_bar_content_inset_with_nav 0x7f060001
 int dimen abc_action_bar_default_height_material 0x7f060002
@@ -3095,6 +3096,8 @@ int drawable tronco 0x7f0700ef
 int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
+int id Btn_Pause 0x7f080206
+int id Btn_Reset 0x7f080207
 int id Btn_cronometro 0x7f080003
 int id CM_tarefas 0x7f080004
 int id CTRL 0x7f080005
@@ -3231,7 +3234,6 @@ int id continuousVelocity 0x7f080087
 int id coordinator 0x7f080088
 int id cos 0x7f080089
 int id countdown_min 0x7f08008a
-int id countdown_sec 0x7f08008b
 int id counterclockwise 0x7f08008c
 int id cradle 0x7f08008d
 int id currentState 0x7f08008e

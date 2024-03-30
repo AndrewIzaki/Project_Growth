@@ -112,10 +112,6 @@
         "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\drawable\\shopping_list_1.xml"
     },
     {
-        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\layout_example_fragment.xml.flat",
-        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\layout\\example_fragment.xml"
-    },
-    {
         "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\layout\\activity_main.xml"
     },

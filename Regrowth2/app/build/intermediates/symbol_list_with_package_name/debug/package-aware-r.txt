@@ -1417,6 +1417,7 @@ color foreground_material_dark
 color foreground_material_light
 color green1
 color green2
+color green3
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color m3_appbar_overlay_color
@@ -3096,6 +3097,8 @@ drawable tronco
 id ALT
 id BOTTOM_END
 id BOTTOM_START
+id Btn_Pause
+id Btn_Reset
 id Btn_cronometro
 id CM_tarefas
 id CTRL
@@ -3232,7 +3235,6 @@ id continuousVelocity
 id coordinator
 id cos
 id countdown_min
-id countdown_sec
 id counterclockwise
 id cradle
 id currentState

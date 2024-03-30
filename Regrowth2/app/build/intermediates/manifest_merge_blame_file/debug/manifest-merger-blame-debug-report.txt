@@ -20,51 +20,51 @@
 15-->[androidx.core:core:1.12.0] C:\Users\andre\.gradle\caches\transforms-3\3a3c9da51d997344f60b63d58c3e81b4\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:5:5-28:19
+17-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:5:5-28:19
 18        android:allowBackup="true"
-18-->C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:6:13-39
+18-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:6:13-39
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 19-->[androidx.core:core:1.12.0] C:\Users\andre\.gradle\caches\transforms-3\3a3c9da51d997344f60b63d58c3e81b4\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:7:13-69
+20-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:7:13-69
 21        android:debuggable="true"
 22        android:extractNativeLibs="false"
 23        android:fullBackupContent="@xml/backup_rules"
-23-->C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:8:13-58
+23-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:8:13-58
 24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:9:13-47
+24-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:9:13-47
 25        android:label="@string/app_name"
-25-->C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:10:13-45
+25-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:10:13-45
 26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:11:13-58
+26-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:11:13-58
 27        android:supportsRtl="true"
-27-->C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:12:13-39
+27-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:12:13-39
 28        android:testOnly="true"
 29        android:theme="@style/Theme.Regrowth" >
-29-->C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:13:13-50
+29-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:13:13-50
 30        <activity
-30-->C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:16:9-24:20
+30-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:16:9-24:20
 31            android:name="com.fatec.regrowth.MainActivity"
-31-->C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:17:17-45
+31-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:17:17-45
 32            android:exported="true" >
-32-->C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:18:17-40
+32-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:18:17-40
 33            <intent-filter>
-33-->C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:19:13-23:29
+33-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:19:13-23:29
 34                <action android:name="android.intent.action.MAIN" />
-34-->C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:20:17-68
-34-->C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:20:25-66
+34-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:20:17-68
+34-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:20:25-66
 35
 36                <category android:name="android.intent.category.LAUNCHER" />
-36-->C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:22:17-76
-36-->C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:22:27-74
+36-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:22:17-76
+36-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:22:27-74
 37            </intent-filter>
 38        </activity>
 39        <activity android:name="com.fatec.regrowth.cronometro" />
-39-->C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:26:9-48
-39-->C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:26:19-45
+39-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:26:9-48
+39-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:26:19-45
 40        <activity android:name="com.fatec.regrowth.tree" />
-40-->C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:27:9-42
-40-->C:\Users\andre\OneDrive\Documentos\Github\Projeto_Growth\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:27:19-39
+40-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:27:9-42
+40-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:27:19-39
 41
 42        <provider
 42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\andre\.gradle\caches\transforms-3\5efcee49dbb6117eaf2064bd1e4a0261\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
