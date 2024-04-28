@@ -20,7 +20,7 @@
             app:layout_constraintTop_toTopOf="parent"
             android:background="@color/green1"
     />
-    <TextView
+   <TextView
             android:id="@+id/Name"
             android:text="@string/Name"
             android:layout_width="wrap_content"
@@ -42,8 +42,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:background="@drawable/redondo"
-    />
-
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.0"/>
+<!--Botão-->
     <Button
             android:id="@+id/plus"
             android:layout_width="wrap_content"
@@ -54,7 +54,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@id/back2"
     />
-
+<!-- botão-->
     <ScrollView
             android:id="@+id/Scroll_tasks"
             android:contentDescription="ele existe"

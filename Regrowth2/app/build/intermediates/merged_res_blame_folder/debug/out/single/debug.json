@@ -56,10 +56,6 @@
         "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/layout_cronometro.xml.flat",
-        "source": "com.fatec.regrowth.app-main-33:/layout/cronometro.xml"
-    },
-    {
         "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
     },
@@ -106,6 +102,10 @@
     {
         "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\layout_tree.xml.flat",
         "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\layout\\tree.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_historia_1.xml.flat",
+        "source": "com.fatec.regrowth.app-main-33:/drawable/historia_1.xml"
     },
     {
         "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\drawable_shopping_list_1.xml.flat",

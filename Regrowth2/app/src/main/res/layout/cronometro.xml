@@ -175,7 +175,6 @@
             android:text="@string/countdown_Min"
             app:layout_constraintEnd_toStartOf="@id/point"
             app:layout_constraintTop_toBottomOf="@id/Btn_cronometro"
-
             app:layout_constraintBottom_toTopOf="@id/img_cima"
             android:maxLength="2"
     />
