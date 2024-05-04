@@ -55,25 +55,14 @@
             app:layout_constraintTop_toTopOf="@id/back2"
     />
 <!-- botão-->
-    <ScrollView
-            android:id="@+id/Scroll_tasks"
-            android:contentDescription="ele existe"
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RecycleViewMain"
             android:layout_width="wrap_content"
-            android:layout_height="540dp"
+            android:layout_height="wrap_content"
             app:layout_constraintTop_toTopOf="@id/back2"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintBottom_toTopOf="@id/guide"
-    >
 
-        <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:id="@+id/linearLayout_Tasks"
-        >
-        </LinearLayout>
-    </ScrollView>
+    />
 
     <ImageView
             android:id="@+id/guide"

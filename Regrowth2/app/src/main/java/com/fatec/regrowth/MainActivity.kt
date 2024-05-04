@@ -7,16 +7,21 @@ import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
 import android.app.AlertDialog
 import android.widget.*
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.fatec.regrowth.databinding.ActivityMainBinding
 
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var layoutTasks: LinearLayout
+    private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding  = ActivityMainBinding.inflate(layoutInflater)
 
-        layoutTasks = findViewById(R.id.linearLayout_Tasks)
+        setContentView(binding.root)
+
+        binding.RecycleViewMain.layoutManager = LinearLayoutManager(this)
 
 
         findViewById<Button>(R.id.plus).setOnClickListener {
