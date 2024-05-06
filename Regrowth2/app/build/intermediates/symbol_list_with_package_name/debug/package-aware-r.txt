@@ -2991,6 +2991,9 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable done
+drawable edit
+drawable green_border
 drawable historia_1
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
@@ -3095,6 +3098,7 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable tronco
 id ALT
+id Addbtn
 id BOTTOM_END
 id BOTTOM_START
 id Btn_Pause
@@ -3106,14 +3110,16 @@ id FUNCTION
 id META
 id NO_DEBUG
 id Name
+id RecycleViewMain
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
-id Scroll_tasks
+id SaveBtn
 id TOP_END
 id TOP_START
+id UpdBtn
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -3171,6 +3177,8 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addUpdHeading
+id addnoteHeading
 id alertTitle
 id aligned
 id all
@@ -3195,7 +3203,6 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
-id bot_task
 id bottom
 id bounce
 id bounceBoth
@@ -3230,6 +3237,8 @@ id constraint
 id container
 id content
 id contentPanel
+id contenteUpdText
+id contenteditText
 id contiguous
 id continuousVelocity
 id coordinator
@@ -3340,14 +3349,12 @@ id jumpToStart
 id labeled
 id layout
 id layout_activityMain
-id layout_tasks
 id left
 id leftToRight
 id legacy
 id line1
 id line3
 id linear
-id linearLayout_Tasks
 id listMode
 id list_item
 id m3_side_sheet
@@ -3555,6 +3562,8 @@ id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
 id task
+id tasksContent
+id tasksTitle
 id text
 id text2
 id textEnd
@@ -3574,11 +3583,12 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
+id titleEdittext
+id titleUpdtext
 id title_template
 id toggle
 id top
 id topPanel
-id top_task
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -3727,7 +3737,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_task_main
 layout activity_main
+layout activity_update_task
 layout cronometro
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -3752,6 +3764,7 @@ layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
 layout m3_auto_complete_simple_item
 layout m3_side_sheet_dialog
+layout main_tasks
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -3808,7 +3821,6 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
-layout task
 layout tree
 mipmap ic_launcher
 mipmap ic_launcher_round

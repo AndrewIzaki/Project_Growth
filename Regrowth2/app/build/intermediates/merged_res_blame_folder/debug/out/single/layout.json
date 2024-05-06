@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-mergeDebugResources-30:\\layout\\activity_add_task_main.xml",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\layout\\activity_add_task_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-mergeDebugResources-30:\\layout\\tree.xml",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\layout\\tree.xml"
+    },
+    {
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-mergeDebugResources-30:\\layout\\activity_update_task.xml",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\layout\\activity_update_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-mergeDebugResources-30:\\layout\\cronometro.xml",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\layout\\cronometro.xml"
+    },
+    {
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-mergeDebugResources-30:\\layout\\main_tasks.xml",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\layout\\main_tasks.xml"
+    },
+    {
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-mergeDebugResources-30:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-mergeDebugResources-30:\\layout\\task.xml",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\layout\\task.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-mergeDebugResources-30:/layout/main_tasks.xml",
+        "source": "com.fatec.regrowth.app-main-33:/layout/main_tasks.xml"
+    }
+]

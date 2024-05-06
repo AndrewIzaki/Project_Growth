@@ -32,6 +32,7 @@
             app:layout_constraintTop_toTopOf="parent"
     />
 
+
     <ImageView
             android:id="@+id/back2"
             android:layout_width="0dp"
@@ -43,26 +44,28 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:background="@drawable/redondo"
             app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.0"/>
-<!--Botão-->
-    <Button
-            android:id="@+id/plus"
+    <!--Botão-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/Addbtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_top"
-            android:src="@drawable/plus_1"
+            app:layout_constraintBottom_toTopOf="@id/task"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@id/back2"
+            android:layout_margin="10dp"
     />
+
 <!-- botão-->
     <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/RecycleViewMain"
+            android:id="@+id/RecycleView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toTopOf="@id/back2"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
 
     />
+
 
     <ImageView
             android:id="@+id/guide"

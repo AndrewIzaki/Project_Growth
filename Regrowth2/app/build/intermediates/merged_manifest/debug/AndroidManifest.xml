@@ -28,6 +28,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.Regrowth" >
         <activity
+            android:name="com.fatec.regrowth.UpdateTask"
+            android:exported="false" />
+        <activity
+            android:name="com.fatec.regrowth.AddTask_main"
+            android:exported="false" />
+        <activity
             android:name="com.fatec.regrowth.MainActivity"
             android:exported="true" >
             <intent-filter>

@@ -3,44 +3,38 @@ package com.fatec.regrowth
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
-import android.app.AlertDialog
-import android.widget.*
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.fatec.regrowth.databinding.ActivityMainBinding
 
-
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var layoutTasks: LinearLayout
     private lateinit var binding: ActivityMainBinding
+    private lateinit var taskAdapter: TaskAdapter
+    private lateinit var db: DATABASE
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding  = ActivityMainBinding.inflate(layoutInflater)
-
         setContentView(binding.root)
 
-        binding.RecycleViewMain.layoutManager = LinearLayoutManager(this)
+        db = DATABASE(this)
+        taskAdapter = TaskAdapter(db.getallTasks(), this)
 
+        binding.RecycleView.layoutManager = LinearLayoutManager(this)
+        binding.RecycleView.adapter = taskAdapter
 
-        findViewById<Button>(R.id.plus).setOnClickListener {
-            adicionar()
+        binding.Addbtn.setOnClickListener{
+            val intent = Intent(this, AddTask_main::class.java)
+            startActivity(intent)
         }
     }
 
-    fun adicionar() {
-
-        val includedLayout = layoutInflater.inflate(R.layout.task, null)
-        val layoutParams = LinearLayout.LayoutParams(
-            LinearLayout.LayoutParams.MATCH_PARENT,
-            LinearLayout.LayoutParams.WRAP_CONTENT
-        )
-        layoutParams.setMargins(0, 8, 0, 0)
-        includedLayout.layoutParams = layoutParams
-
-        layoutTasks.addView(includedLayout)
+    override fun onResume() {
+        super.onResume()
+        taskAdapter.refreshData(db.getallTasks())
     }
+
 
     fun cronometro(view: View){
         val intent = Intent(this, cronometro::class.java)
