@@ -4,6 +4,7 @@ package com.fatec.regrowth.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -30,7 +31,16 @@ public final class TreeBinding implements ViewBinding {
   public final ImageView back2;
 
   @NonNull
+  public final Button btnFolha;
+
+  @NonNull
   public final ImageView guide;
+
+  @NonNull
+  public final ImageView imageView;
+
+  @NonNull
+  public final ConstraintLayout layout;
 
   @NonNull
   public final ImageView plus;
@@ -45,14 +55,18 @@ public final class TreeBinding implements ViewBinding {
   public final ImageView tree;
 
   private TreeBinding(@NonNull ConstraintLayout rootView, @NonNull TextView Name,
-      @NonNull ImageView back1, @NonNull ImageView back2, @NonNull ImageView guide,
+      @NonNull ImageView back1, @NonNull ImageView back2, @NonNull Button btnFolha,
+      @NonNull ImageView guide, @NonNull ImageView imageView, @NonNull ConstraintLayout layout,
       @NonNull ImageView plus, @NonNull ImageView relogio, @NonNull ImageView task,
       @NonNull ImageView tree) {
     this.rootView = rootView;
     this.Name = Name;
     this.back1 = back1;
     this.back2 = back2;
+    this.btnFolha = btnFolha;
     this.guide = guide;
+    this.imageView = imageView;
+    this.layout = layout;
     this.plus = plus;
     this.relogio = relogio;
     this.task = task;
@@ -104,11 +118,25 @@ public final class TreeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnFolha;
+      Button btnFolha = ViewBindings.findChildViewById(rootView, id);
+      if (btnFolha == null) {
+        break missingId;
+      }
+
       id = R.id.guide;
       ImageView guide = ViewBindings.findChildViewById(rootView, id);
       if (guide == null) {
         break missingId;
       }
+
+      id = R.id.imageView;
+      ImageView imageView = ViewBindings.findChildViewById(rootView, id);
+      if (imageView == null) {
+        break missingId;
+      }
+
+      ConstraintLayout layout = (ConstraintLayout) rootView;
 
       id = R.id.plus;
       ImageView plus = ViewBindings.findChildViewById(rootView, id);
@@ -134,8 +162,8 @@ public final class TreeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new TreeBinding((ConstraintLayout) rootView, Name, back1, back2, guide, plus, relogio,
-          task, tree);
+      return new TreeBinding((ConstraintLayout) rootView, Name, back1, back2, btnFolha, guide,
+          imageView, layout, plus, relogio, task, tree);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

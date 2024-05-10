@@ -10,7 +10,7 @@ class DATABASE(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME, null
     companion object{
         private const val DATABASE_NAME = "ClockTree.db"
         private  const val DATABASE_VERSION = 1
-        private const val TABLE_NAME = "allnotes"
+        private const val TABLE_NAME = "alltasks"
         private const val COLUMN_ID = "id"
         private const val COLUMN_TITLE = "title"
         private const val COLUMN_CONTENT = "content"
@@ -81,6 +81,14 @@ class DATABASE(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME, null
         cursor.close()
         db.close()
         return Task(id, title, content)
+    }
+
+    fun deletTask(noteID: Int){
+        val db = writableDatabase
+        val whereClause = "$COLUMN_ID = ?"
+        val whereArgs = arrayOf(noteID.toString())
+        db.delete(TABLE_NAME, whereClause, whereArgs)
+        db.close()
     }
 
 }

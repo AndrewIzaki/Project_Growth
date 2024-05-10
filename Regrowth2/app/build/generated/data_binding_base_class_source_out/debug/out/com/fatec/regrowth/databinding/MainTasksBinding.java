@@ -4,6 +4,8 @@ package com.fatec.regrowth.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CheckBox;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,16 +22,29 @@ public final class MainTasksBinding implements ViewBinding {
   private final CardView rootView;
 
   @NonNull
+  public final CheckBox checkBox;
+
+  @NonNull
+  public final ImageView deleteButton;
+
+  @NonNull
   public final TextView tasksContent;
 
   @NonNull
   public final TextView tasksTitle;
 
-  private MainTasksBinding(@NonNull CardView rootView, @NonNull TextView tasksContent,
-      @NonNull TextView tasksTitle) {
+  @NonNull
+  public final ImageView updateButton;
+
+  private MainTasksBinding(@NonNull CardView rootView, @NonNull CheckBox checkBox,
+      @NonNull ImageView deleteButton, @NonNull TextView tasksContent, @NonNull TextView tasksTitle,
+      @NonNull ImageView updateButton) {
     this.rootView = rootView;
+    this.checkBox = checkBox;
+    this.deleteButton = deleteButton;
     this.tasksContent = tasksContent;
     this.tasksTitle = tasksTitle;
+    this.updateButton = updateButton;
   }
 
   @Override
@@ -59,6 +74,18 @@ public final class MainTasksBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.checkBox;
+      CheckBox checkBox = ViewBindings.findChildViewById(rootView, id);
+      if (checkBox == null) {
+        break missingId;
+      }
+
+      id = R.id.delete_button;
+      ImageView deleteButton = ViewBindings.findChildViewById(rootView, id);
+      if (deleteButton == null) {
+        break missingId;
+      }
+
       id = R.id.tasksContent;
       TextView tasksContent = ViewBindings.findChildViewById(rootView, id);
       if (tasksContent == null) {
@@ -71,7 +98,14 @@ public final class MainTasksBinding implements ViewBinding {
         break missingId;
       }
 
-      return new MainTasksBinding((CardView) rootView, tasksContent, tasksTitle);
+      id = R.id.update_button;
+      ImageView updateButton = ViewBindings.findChildViewById(rootView, id);
+      if (updateButton == null) {
+        break missingId;
+      }
+
+      return new MainTasksBinding((CardView) rootView, checkBox, deleteButton, tasksContent,
+          tasksTitle, updateButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

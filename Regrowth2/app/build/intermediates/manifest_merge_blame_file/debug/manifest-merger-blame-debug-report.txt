@@ -50,8 +50,8 @@
 32-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:17:17-41
 33        <activity
 33-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:18:9-20:43
-34            android:name="com.fatec.regrowth.AddTask_main"
-34-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:19:17-45
+34            android:name="com.fatec.regrowth.AddTaskMain"
+34-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:19:17-44
 35            android:exported="false" />
 35-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:20:17-41
 36        <activity
@@ -71,7 +71,7 @@
 42-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:27:27-74
 43            </intent-filter>
 44        </activity>
-45        <activity android:name="com.fatec.regrowth.cronometro" />
+45        <activity android:name="com.fatec.regrowth.Cronometro" />
 45-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:30:9-47
 45-->C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:30:19-45
 46        <activity android:name="com.fatec.regrowth.tree" />

@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         binding.RecycleView.adapter = taskAdapter
 
         binding.Addbtn.setOnClickListener{
-            val intent = Intent(this, AddTask_main::class.java)
+            val intent = Intent(this, AddTaskMain::class.java)
             startActivity(intent)
         }
     }
@@ -37,16 +37,11 @@ class MainActivity : AppCompatActivity() {
 
 
     fun cronometro(view: View){
-        val intent = Intent(this, cronometro::class.java)
+        val intent = Intent(this, Cronometro::class.java)
         startActivity(intent)
     }
     fun tree(view: View){
         val intent = Intent(this, tree::class.java)
-        startActivity(intent)
-    }
-
-    fun main(view: View){
-        val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
     }
 

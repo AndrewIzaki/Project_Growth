@@ -28,7 +28,7 @@
         "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\layout\\task.xml"
     },
     {
-        "merged": "com.fatec.regrowth.app-mergeDebugResources-30:/layout/main_tasks.xml",
-        "source": "com.fatec.regrowth.app-main-33:/layout/main_tasks.xml"
+        "merged": "com.fatec.regrowth.app-mergeDebugResources-30:/layout/tree.xml",
+        "source": "com.fatec.regrowth.app-main-33:/layout/tree.xml"
     }
 ]

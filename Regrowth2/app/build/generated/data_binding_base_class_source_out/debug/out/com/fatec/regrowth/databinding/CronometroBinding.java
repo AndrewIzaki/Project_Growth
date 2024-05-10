@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -33,9 +34,6 @@ public final class CronometroBinding implements ViewBinding {
   public final Button BtnReset;
 
   @NonNull
-  public final TextView CMTarefas;
-
-  @NonNull
   public final TextView Name;
 
   @NonNull
@@ -45,13 +43,13 @@ public final class CronometroBinding implements ViewBinding {
   public final ImageView back2;
 
   @NonNull
+  public final CardView cardViewCronometro;
+
+  @NonNull
   public final TextInputEditText countdownMin;
 
   @NonNull
   public final ImageView guide;
-
-  @NonNull
-  public final ImageView imgBaixo;
 
   @NonNull
   public final ImageView imgCima;
@@ -72,23 +70,21 @@ public final class CronometroBinding implements ViewBinding {
   public final TextView txtTeste;
 
   private CronometroBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton BtnCronometro,
-      @NonNull Button BtnPause, @NonNull Button BtnReset, @NonNull TextView CMTarefas,
-      @NonNull TextView Name, @NonNull ImageView back1, @NonNull ImageView back2,
-      @NonNull TextInputEditText countdownMin, @NonNull ImageView guide,
-      @NonNull ImageView imgBaixo, @NonNull ImageView imgCima, @NonNull TextView point,
-      @NonNull ImageView relogio, @NonNull ImageView task, @NonNull ImageView tree,
-      @NonNull TextView txtTeste) {
+      @NonNull Button BtnPause, @NonNull Button BtnReset, @NonNull TextView Name,
+      @NonNull ImageView back1, @NonNull ImageView back2, @NonNull CardView cardViewCronometro,
+      @NonNull TextInputEditText countdownMin, @NonNull ImageView guide, @NonNull ImageView imgCima,
+      @NonNull TextView point, @NonNull ImageView relogio, @NonNull ImageView task,
+      @NonNull ImageView tree, @NonNull TextView txtTeste) {
     this.rootView = rootView;
     this.BtnCronometro = BtnCronometro;
     this.BtnPause = BtnPause;
     this.BtnReset = BtnReset;
-    this.CMTarefas = CMTarefas;
     this.Name = Name;
     this.back1 = back1;
     this.back2 = back2;
+    this.cardViewCronometro = cardViewCronometro;
     this.countdownMin = countdownMin;
     this.guide = guide;
-    this.imgBaixo = imgBaixo;
     this.imgCima = imgCima;
     this.point = point;
     this.relogio = relogio;
@@ -142,12 +138,6 @@ public final class CronometroBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.CM_tarefas;
-      TextView CMTarefas = ViewBindings.findChildViewById(rootView, id);
-      if (CMTarefas == null) {
-        break missingId;
-      }
-
       id = R.id.Name;
       TextView Name = ViewBindings.findChildViewById(rootView, id);
       if (Name == null) {
@@ -166,6 +156,12 @@ public final class CronometroBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.cardViewCronometro;
+      CardView cardViewCronometro = ViewBindings.findChildViewById(rootView, id);
+      if (cardViewCronometro == null) {
+        break missingId;
+      }
+
       id = R.id.countdown_min;
       TextInputEditText countdownMin = ViewBindings.findChildViewById(rootView, id);
       if (countdownMin == null) {
@@ -175,12 +171,6 @@ public final class CronometroBinding implements ViewBinding {
       id = R.id.guide;
       ImageView guide = ViewBindings.findChildViewById(rootView, id);
       if (guide == null) {
-        break missingId;
-      }
-
-      id = R.id.img_baixo;
-      ImageView imgBaixo = ViewBindings.findChildViewById(rootView, id);
-      if (imgBaixo == null) {
         break missingId;
       }
 
@@ -221,7 +211,7 @@ public final class CronometroBinding implements ViewBinding {
       }
 
       return new CronometroBinding((ConstraintLayout) rootView, BtnCronometro, BtnPause, BtnReset,
-          CMTarefas, Name, back1, back2, countdownMin, guide, imgBaixo, imgCima, point, relogio,
+          Name, back1, back2, cardViewCronometro, countdownMin, guide, imgCima, point, relogio,
           task, tree, txtTeste);
     }
     String missingId = rootView.getResources().getResourceName(id);

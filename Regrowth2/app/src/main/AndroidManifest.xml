@@ -16,7 +16,7 @@
                 android:name=".UpdateTask"
                 android:exported="false"/>
         <activity
-                android:name=".AddTask_main"
+                android:name=".AddTaskMain"
                 android:exported="false"/>
         <activity
                 android:name=".MainActivity"
@@ -27,7 +27,7 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".cronometro"/>
+        <activity android:name=".Cronometro"/>
         <activity android:name=".tree"/>
     </application>
 

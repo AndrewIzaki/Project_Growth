@@ -31,7 +31,7 @@
             android:name="com.fatec.regrowth.UpdateTask"
             android:exported="false" />
         <activity
-            android:name="com.fatec.regrowth.AddTask_main"
+            android:name="com.fatec.regrowth.AddTaskMain"
             android:exported="false" />
         <activity
             android:name="com.fatec.regrowth.MainActivity"
@@ -42,7 +42,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.fatec.regrowth.cronometro" />
+        <activity android:name="com.fatec.regrowth.Cronometro" />
         <activity android:name="com.fatec.regrowth.tree" />
 
         <provider

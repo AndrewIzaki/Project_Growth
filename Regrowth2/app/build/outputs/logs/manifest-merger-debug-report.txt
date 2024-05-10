@@ -103,12 +103,12 @@ ADDED from C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidMani
 		ADDED from C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:17:17-41
 	android:name
 		ADDED from C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:16:17-43
-activity#com.fatec.regrowth.AddTask_main
+activity#com.fatec.regrowth.AddTaskMain
 ADDED from C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:18:9-20:43
 	android:exported
 		ADDED from C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:20:17-41
 	android:name
-		ADDED from C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:19:17-45
+		ADDED from C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:19:17-44
 activity#com.fatec.regrowth.MainActivity
 ADDED from C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:21:9-29:20
 	android:exported
@@ -125,7 +125,7 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:27:17-76
 	android:name
 		ADDED from C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:27:27-74
-activity#com.fatec.regrowth.cronometro
+activity#com.fatec.regrowth.Cronometro
 ADDED from C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:30:9-47
 	android:name
 		ADDED from C:\_Android\TodoApp\Project_Growth\Regrowth2\app\src\main\AndroidManifest.xml:30:19-45

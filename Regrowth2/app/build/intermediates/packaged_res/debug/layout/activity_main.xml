@@ -53,11 +53,12 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_margin="10dp"
+            android:src="@drawable/plus_1"
     />
 
 <!-- botão-->
     <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/RecycleViewMain"
+            android:id="@+id/RecycleView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toTopOf="@id/back2"
@@ -65,6 +66,7 @@
             app:layout_constraintStart_toStartOf="parent"
 
     />
+
 
     <ImageView
             android:id="@+id/guide"

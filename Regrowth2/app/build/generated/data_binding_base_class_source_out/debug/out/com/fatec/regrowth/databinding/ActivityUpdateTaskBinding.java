@@ -22,24 +22,24 @@ public final class ActivityUpdateTaskBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageView UpdBtn;
-
-  @NonNull
   public final TextView addUpdHeading;
 
   @NonNull
   public final EditText contenteUpdText;
 
   @NonNull
+  public final ImageView editSaveBtn;
+
+  @NonNull
   public final EditText titleUpdtext;
 
-  private ActivityUpdateTaskBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView UpdBtn,
+  private ActivityUpdateTaskBinding(@NonNull ConstraintLayout rootView,
       @NonNull TextView addUpdHeading, @NonNull EditText contenteUpdText,
-      @NonNull EditText titleUpdtext) {
+      @NonNull ImageView editSaveBtn, @NonNull EditText titleUpdtext) {
     this.rootView = rootView;
-    this.UpdBtn = UpdBtn;
     this.addUpdHeading = addUpdHeading;
     this.contenteUpdText = contenteUpdText;
+    this.editSaveBtn = editSaveBtn;
     this.titleUpdtext = titleUpdtext;
   }
 
@@ -70,12 +70,6 @@ public final class ActivityUpdateTaskBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.UpdBtn;
-      ImageView UpdBtn = ViewBindings.findChildViewById(rootView, id);
-      if (UpdBtn == null) {
-        break missingId;
-      }
-
       id = R.id.addUpdHeading;
       TextView addUpdHeading = ViewBindings.findChildViewById(rootView, id);
       if (addUpdHeading == null) {
@@ -88,14 +82,20 @@ public final class ActivityUpdateTaskBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.editSaveBtn;
+      ImageView editSaveBtn = ViewBindings.findChildViewById(rootView, id);
+      if (editSaveBtn == null) {
+        break missingId;
+      }
+
       id = R.id.titleUpdtext;
       EditText titleUpdtext = ViewBindings.findChildViewById(rootView, id);
       if (titleUpdtext == null) {
         break missingId;
       }
 
-      return new ActivityUpdateTaskBinding((ConstraintLayout) rootView, UpdBtn, addUpdHeading,
-          contenteUpdText, titleUpdtext);
+      return new ActivityUpdateTaskBinding((ConstraintLayout) rootView, addUpdHeading,
+          contenteUpdText, editSaveBtn, titleUpdtext);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

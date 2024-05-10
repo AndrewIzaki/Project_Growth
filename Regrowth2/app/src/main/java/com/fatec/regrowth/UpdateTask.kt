@@ -27,7 +27,7 @@ class UpdateTask : AppCompatActivity() {
         binding.titleUpdtext.setText(task.title)
         binding.contenteUpdText.setText(task.content)
 
-        binding.UpdBtn.setOnClickListener{
+        binding.editSaveBtn.setOnClickListener{
             val newTitle = binding.titleUpdtext.text.toString()
             val newContent = binding.contenteUpdText.text.toString()
             val updateNote = Task(noteId, newTitle, newContent)
