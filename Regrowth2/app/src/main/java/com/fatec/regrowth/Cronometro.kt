@@ -12,6 +12,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.textfield.TextInputEditText
 
+
 class Cronometro : AppCompatActivity() {
 
     // Variaveis globais
@@ -62,7 +63,7 @@ class Cronometro : AppCompatActivity() {
 // todos os metodos do script, Fica ligado Jerjinho matador.
 fun startCount(tempoLong: Long) {
     if (tempoLong > 0){//1°
-        if (timIniciar == null){//2° fun start
+        if (timIniciar==null){//2° fun start
             if(pause == false){//3°
                 val tempoString = textInputEditText.text.toString()
                 val tempoLong = tempoString.toLongOrNull() ?: 0
@@ -80,6 +81,12 @@ fun startCount(tempoLong: Long) {
 
                 override fun onFinish() {
                     textView.text = "00:00"
+
+                    val instanceLeaf = true
+                    val intent = Intent(this@Cronometro, tree::class.java)
+                    intent.putExtra("leaf", instanceLeaf)
+                    startActivity(intent)
+
                     timIniciar = null // Limpa a referência do cronômetro quando a contagem regressiva termina
                 }
             }
@@ -139,10 +146,6 @@ private fun ConCount(){
                 Toast.makeText(this, valueTest.toString(), Toast.LENGTH_SHORT).show()
             }
     }
-
-        //voltar
-
-
         fun tree(view: View) {
             val intent = Intent(this, tree::class.java)
             startActivity(intent)

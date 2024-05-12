@@ -1,5 +1,3 @@
-package com.fatec.regrowth
-
 import android.content.Context
 import android.graphics.Canvas
 import android.graphics.drawable.Drawable
@@ -7,7 +5,7 @@ import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.View
 import androidx.core.content.ContextCompat
-import com.fatec.regrowth.R
+import com.fatec.regrowth.*
 
 class DraggableView @JvmOverloads constructor(
     context: Context,
@@ -17,12 +15,10 @@ class DraggableView @JvmOverloads constructor(
 
     private var lastTouchX = 0f
     private var lastTouchY = 0f
-    private var backgroundImage: Drawable? = null // Adicione um atributo para a imagem
-
+    private var backgroundImage: Drawable? = null
 
     init {
-        // Carregue a imagem de fundo
-        backgroundImage = ContextCompat.getDrawable(context, R.mipmap.leafimg_foreground)
+        backgroundImage = ContextCompat.getDrawable(context, R.drawable.ic_launcher_background)
     }
 
     override fun onTouchEvent(event: MotionEvent): Boolean {
@@ -38,7 +34,6 @@ class DraggableView @JvmOverloads constructor(
                 val dx = x - lastTouchX
                 val dy = y - lastTouchY
 
-                // Mova o objeto arrastável
                 translationX += dx
                 translationY += dy
 
@@ -52,11 +47,8 @@ class DraggableView @JvmOverloads constructor(
 
     override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
-        // Verifique se a imagem de fundo não é nula e se o canvas não é nulo
         if (backgroundImage != null && canvas != null) {
-            // Defina o tamanho da imagem com base no tamanho da view
             backgroundImage!!.setBounds(0, 0, width, height)
-            // Desenhe a imagem de fundo
             backgroundImage!!.draw(canvas)
         }
     }

@@ -8,6 +8,10 @@
         "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\layout\\tree.xml"
     },
     {
+        "merged": "com.fatec.regrowth.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.fatec.regrowth.app-main-33:/layout/activity_main.xml"
+    },
+    {
         "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-mergeDebugResources-30:\\layout\\activity_update_task.xml",
         "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\layout\\activity_update_task.xml"
     },
@@ -28,7 +32,7 @@
         "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\layout\\task.xml"
     },
     {
-        "merged": "com.fatec.regrowth.app-mergeDebugResources-30:/layout/tree.xml",
-        "source": "com.fatec.regrowth.app-main-33:/layout/tree.xml"
+        "merged": "com.fatec.regrowth.app-mergeDebugResources-30:/layout/cronometro.xml",
+        "source": "com.fatec.regrowth.app-main-33:/layout/cronometro.xml"
     }
 ]

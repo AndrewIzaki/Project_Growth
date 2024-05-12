@@ -1,0 +1,362 @@
+[
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-mdpi_ic_launcher_background.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-mdpi/ic_launcher_background.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-mdpi_leafimg.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-mdpi/leafimg.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxhdpi_leafimg_background.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xxhdpi/leafimg_background.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xhdpi_ic_launcher_background.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xhdpi/ic_launcher_background.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxhdpi_leafimg.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xxhdpi/leafimg.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-hdpi_leafimg_background.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-hdpi/leafimg_background.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_background.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xxxhdpi/ic_launcher_background.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_green_border.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/drawable/green_border.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-mdpi_leafimg_foreground.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-mdpi/leafimg_foreground.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_plus_1.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/drawable/plus_1.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xhdpi_leafimg.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xhdpi/leafimg.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_shopping_list_1.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/drawable/shopping_list_1.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxhdpi_leafimg_foreground.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xxhdpi/leafimg_foreground.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxhdpi_folha_background.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xxhdpi/folha_background.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-hdpi_leafimg_foreground.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-hdpi/leafimg_foreground.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_redondo.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/drawable/redondo.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-hdpi_folha_round.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-hdpi/folha_round.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-anydpi-v26_leafimg.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-anydpi-v26/leafimg.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_pine_tree_1.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/drawable/pine_tree_1.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxxhdpi_folha_background.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xxxhdpi/folha_background.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/layout_activity_update_task.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/layout/activity_update_task.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/xml_data_extraction_rules.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-hdpi_folha.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-hdpi/folha.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-mdpi_folha.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-mdpi/folha.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/xml_backup_rules.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/layout_main_tasks.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/layout/main_tasks.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_tronco.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/drawable/tronco.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_baseline_delete_24.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/drawable/baseline_delete_24.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_historia_1.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/drawable/historia_1.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_edit.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/drawable/edit.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_relogiorelogin.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/drawable/relogiorelogin.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxxhdpi_leafimg_foreground.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xxxhdpi/leafimg_foreground.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-hdpi_ic_launcher_background.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-hdpi/ic_launcher_background.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_background.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xxhdpi/ic_launcher_background.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/layout_tree.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/layout/tree.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xhdpi_leafimg_foreground.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xhdpi/leafimg_foreground.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xhdpi_folha_background.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xhdpi/folha_background.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-mdpi_folha_round.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-mdpi/folha_round.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xhdpi_leafimg_background.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xhdpi/leafimg_background.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-hdpi_folha_background.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-hdpi/folha_background.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxxhdpi_leafimg_round.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xxxhdpi/leafimg_round.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxhdpi_folha_round.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xxhdpi/folha_round.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-hdpi_folha_foreground.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-hdpi/folha_foreground.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxxhdpi_leafimg_background.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xxxhdpi/leafimg_background.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_baixo.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/drawable/baixo.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xhdpi_leafimg_round.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xhdpi/leafimg_round.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xhdpi_folha_round.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xhdpi/folha_round.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxxhdpi_folha_foreground.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xxxhdpi/folha_foreground.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxxhdpi_folha.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xxxhdpi/folha.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-anydpi-v26_folha_round.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-anydpi-v26/folha_round.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/layout_cronometro.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/layout/cronometro.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxxhdpi_folha_round.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xxxhdpi/folha_round.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-mdpi_folha_background.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-mdpi/folha_background.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xhdpi_folha.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xhdpi/folha.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-mdpi_folha_foreground.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-mdpi/folha_foreground.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-mdpi_leafimg_round.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-mdpi/leafimg_round.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_cima__1_.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/drawable/cima__1_.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-hdpi_leafimg_round.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-hdpi/leafimg_round.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/layout_activity_add_task_main.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/layout/activity_add_task_main.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-anydpi-v26_leafimg_round.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-anydpi-v26/leafimg_round.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-hdpi_leafimg.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-hdpi/leafimg.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxhdpi_folha.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xxhdpi/folha.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxxhdpi_leafimg.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xxxhdpi/leafimg.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_done.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/drawable/done.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-anydpi-v26_folha.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-anydpi-v26/folha.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxhdpi_leafimg_round.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xxhdpi/leafimg_round.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xxhdpi_folha_foreground.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xxhdpi/folha_foreground.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-mdpi_leafimg_background.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-mdpi/leafimg_background.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/mipmap-xhdpi_folha_foreground.webp.flat",
+        "source": "com.fatec.regrowth.app-main-32:/mipmap-xhdpi/folha_foreground.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/drawable_rectangle_1__1_.xml.flat",
+        "source": "com.fatec.regrowth.app-main-32:/drawable/rectangle_1__1_.xml"
+    }
+]

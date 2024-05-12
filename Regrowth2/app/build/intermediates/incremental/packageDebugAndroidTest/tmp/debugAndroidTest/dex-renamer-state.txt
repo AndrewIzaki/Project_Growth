@@ -1,0 +1,10 @@
+#Sat May 11 19:04:40 BRT 2024
+base.0=C\:\\_Android\\TodoApp\\Project_Growth\\Regrowth2\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
+base.1=C\:\\_Android\\TodoApp\\Project_Growth\\Regrowth2\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.2=C\:\\_Android\\TodoApp\\Project_Growth\\Regrowth2\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\5\\classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=5/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex

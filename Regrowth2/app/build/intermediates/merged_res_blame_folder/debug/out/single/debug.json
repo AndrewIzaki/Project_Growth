@@ -160,10 +160,6 @@
         "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.fatec.regrowth.app-merged_res-31:/layout_tree.xml.flat",
-        "source": "com.fatec.regrowth.app-main-33:/layout/tree.xml"
-    },
-    {
         "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\drawable_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\drawable\\ic_launcher_foreground.xml"
     },
@@ -236,6 +232,10 @@
         "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\mipmap-xhdpi\\folha.webp"
     },
     {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "com.fatec.regrowth.app-main-33:/layout/activity_main.xml"
+    },
+    {
         "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\mipmap-mdpi_leafimg.webp.flat",
         "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\mipmap-mdpi\\leafimg.webp"
     },
@@ -246,6 +246,10 @@
     {
         "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\mipmap-mdpi_leafimg_foreground.webp.flat",
         "source": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-main-33:\\mipmap-mdpi\\leafimg_foreground.webp"
+    },
+    {
+        "merged": "com.fatec.regrowth.app-merged_res-31:/layout_cronometro.xml.flat",
+        "source": "com.fatec.regrowth.app-main-33:/layout/cronometro.xml"
     },
     {
         "merged": "C:\\Users\\andre\\.gradle\\daemon\\8.2\\com.fatec.regrowth.app-merged_res-31:\\mipmap-xhdpi_leafimg.webp.flat",
